@@ -1,0 +1,10 @@
+{
+  "_id": "_design/blogs",
+  "_rev": "1-61d50374e6e85e84c519f34b49d12313",
+  "views": {
+    "blogById": {
+      "map": "function (doc) {\n  emit(doc._id, doc);\n}"
+    }
+  },
+  "language": "javascript"
+}

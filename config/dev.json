@@ -1,0 +1,8 @@
+{
+  "port": "3000",
+  "log_level": "debug",
+  "couchdb_url": "http://user:password@host:port/",
+  "blog_db_name": "blogs",
+  "blog_db_design_doc_id": "blogs",
+  "blog_db_index_name": "blogById"
+}

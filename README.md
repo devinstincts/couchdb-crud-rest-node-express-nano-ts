@@ -22,6 +22,7 @@ Clone or download the master branch and follow below steps:
 
 * [Node](https://nodejs.org/en/) - Java Script runtime
 * [npm](https://www.npmjs.com/) - Package Manager for Node
+* [Typescript](https://www.typescriptlang.org/) - A superset of JavaScript
 * [Express](https://expressjs.com/) - Minimalist web framework for Node
 * [Nano](https://www.npmjs.com/package/nano) - Offical Apache CouchDB library for Node.js
 ## Authors

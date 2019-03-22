@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "0371d446-7798-45bc-81bc-475ecda1013e",
+		"name": "couch-node-express-nano-crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get blog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5000/dev-instincts/couch-node-express-nano-crud/blogs/451652deb67c942b10b6a33d79009861",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"dev-instincts",
+						"couch-node-express-nano-crud",
+						"blogs",
+						"451652deb67c942b10b6a33d79009861"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create blog",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"title\": \"test\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/dev-instincts/couch-node-express-nano-crud/blogs/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"dev-instincts",
+						"couch-node-express-nano-crud",
+						"blogs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update blog",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Test blog! Updated\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/dev-instincts/couch-node-express-nano-crud/blogs/451652deb67c942b10b6a33d7900edd9/1-c7695e1bd9ffb27259b45d7ce4e74693",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"dev-instincts",
+						"couch-node-express-nano-crud",
+						"blogs",
+						"451652deb67c942b10b6a33d7900edd9",
+						"1-c7695e1bd9ffb27259b45d7ce4e74693"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete blog",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5000/dev-instincts/couch-node-express-nano-crud/blogs/451652deb67c942b10b6a33d7900edd9/2-84bfea72d9b37af9f9fcb8918931c398",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"dev-instincts",
+						"couch-node-express-nano-crud",
+						"blogs",
+						"451652deb67c942b10b6a33d7900edd9",
+						"2-84bfea72d9b37af9f9fcb8918931c398"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

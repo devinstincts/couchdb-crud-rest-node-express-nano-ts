@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/varmagtm/couchdb-crud-rest-node-express-nano-ts"
+    "url": "https://github.com/devinstincts/couchdb-crud-rest-node-express-nano-ts.git"
   },
   "keywords": [
     "rest",

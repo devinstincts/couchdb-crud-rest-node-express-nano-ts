@@ -1,6 +1,6 @@
-# couchdb-crud-rest-node-express-nano-ts
-Services for CouchDB CRUD operations using Node, Express, and Nano
-
+# RESTful web-services for Couch DB CRUD operations using Node, Express, and Nano
+RESTful services for performing CRUD operations on a CouchDB database developed using Node, Express, and Nano.
+A database named 'blogs' has been created and developed RESTful webservices to perform CRUD operations on it.
 ### Prerequisites
 
 Softwares Required:
@@ -19,7 +19,7 @@ Clone or download the master branch and follow below steps:
 * Perform CRUD operations in the same order and test the results
 
 ## Built With
-
+* [CouchDB](http://couchdb.apache.org/) - NoSQL document oriented database which is an AP(Highly Available and Partition tolerant) system with eventual consistency
 * [Node](https://nodejs.org/en/) - Java Script runtime
 * [npm](https://www.npmjs.com/) - Package Manager for Node
 * [Typescript](https://www.typescriptlang.org/) - A superset of JavaScript
